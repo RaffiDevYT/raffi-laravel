@@ -1,0 +1,7 @@
+body {
+    font-family: "Poppins", sans-serif, "Roboto";
+    text-align: center;
+    justify-content: center;
+    background-color: #1a202c;
+    --bg-opacity: 1;
+}

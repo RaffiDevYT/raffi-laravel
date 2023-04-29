@@ -1,0 +1,39 @@
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* import global styling */
+@import url(./partials/_global.css);
+
+/* importfont */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+/* start navigation */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #081b29 !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(15, 111, 115) !important;
+}
+
+body {
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif, "Roboto";
+    overflow-x: hidden;
+}
+
+.h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}

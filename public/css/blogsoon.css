@@ -1,0 +1,87 @@
+/* Config here and delete comment */
+:root{
+<<<<<<< HEAD
+    --di-primary-color: #112e42;
+    --di-secondary-color: #ffc42f;
+    --di-background-color_1: #112e42;
+    --di-background-color_2: #112e42;
+=======
+    --di-primary-color: #0C21F0;
+    --di-secondary-color: #ffc42f;
+    --di-background-color_1: #0C21F0;
+    --di-background-color_2: #0C21F0;
+>>>>>>> 0f46982b61f9fb3c85c81e055c7e99b018a71a3c
+    --di-text-color: white;
+}
+/*--*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(45deg, var(--di-background-color_1), var(--di-background-color_2), var(--di-background-color_1));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main {
+    width: clamp(280px, 50%, 600px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    gap: 1.25rem;
+    font-size: 1rem;
+    color: var(--di-text-color);
+}
+img {
+    object-fit: contain;
+    width: clamp(250px, 50%, 300px);
+    height: clamp(150px, 30%, 200px);
+}
+main h1{
+    font-size:clamp(16px, 2rem, 4rem);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+hr{
+    height: 5px;
+    width: 20%;
+    background: var(--di-primary-color);
+}
+main div{
+    position: relative;
+    z-index: 17;
+}
+main a{
+    text-decoration: none;
+    color: var(--di-text-color);
+    font-weight: bold;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+}
+@media screen and (max-height: 450px) {
+    body {
+        height: auto;
+        padding: 1rem;
+    }
+}

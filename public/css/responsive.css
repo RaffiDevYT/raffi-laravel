@@ -1,0 +1,212 @@
+@media screen and (max-width: 576px) {
+  body {
+    scroll-behavior: smooth !important;
+  }
+  .header_area .navbar-menu .navbar,
+  .header_area .navbar-menu .navbar .navbar-brand,
+  .site-main .subscribe-us-area .subscribe .subscribe-title,
+  .site-main .subscribe-us-area .subscribe .subscribe-title p,
+  h4,
+  .site-main .services-area,
+  .site-main .subscribe-us-area .subscribe {
+    padding: 2%;
+    margin: 0%;
+  }
+
+  .site-main .site-banner .site-title h1 {
+    font-size: 41px;
+  }
+
+  .site-main .subscribe-us-area .subscribe form .input-textbox input {
+    width: 15rem !important;
+  }
+
+  .site-main > .services-area .services {
+    width: 13rem;
+  }
+  
+    .site-main .site-banner .site-title {
+      margin-left: 0 !important;
+    }
+    .site-main .site-banner .site-title h1 {
+      font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 1129px) {
+  .navbar-menu {
+    width: 95%;
+    height: 100%;
+    overflow-y: hidden;
+    flex-direction: column;
+  }
+}
+
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 792px) {
+  .site-main .about-area .about-title h2 > span {
+    font-size: 31px;
+    letter-spacing: 10px;
+  }
+
+  .site-main .brand-area .experience-area .years-area {
+    padding-left: 1%;
+    width: 49%;
+  }
+
+  .site-main .brand-area .experience-area .bg-panel {
+    margin-left: 30%;
+    width: 80%;
+  }
+
+  .site-main .brand-area .experience-area .call-area {
+    padding-left: 3%;
+  }
+
+  .site-main .project-area .button-group button {
+    font: normal 500 18px/40px var(--roboto);
+  }
+
+  .site-main .about-area .about-title p {
+    padding: 0%;
+  }
+
+  .site-main .subscribe-us-area .subscribe form .input-textbox input {
+    width: 20rem;
+    margin: 5%;
+  }
+}
+
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px) {
+  .header_area .navbar-menu .navbar {
+    padding: 1rem;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .site-main .brand-area,
+  .site-main .services-area .services-title,
+  .site-main .about-area {
+    padding: 3% 4%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-title h1 {
+    margin-bottom: 7px !important;
+  }
+  .about-title .button-hacking {
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+  }
+  .card-about-left {
+    transform: translateX(0);
+  }
+  .card-about-right {
+    margin-top: 20px;
+    transform: translateY(0);
+  }
+}
+
+/* Navbar */
+@media screen and (max-width: 768px) {
+  nav .logo {
+      float: none;
+      width: auto;
+      justify-content: center;
+  }
+  nav .links {
+      float: none;
+      position: fixed;
+      z-index: 9;
+      left: 0;
+      right: 0;
+      top: 100px;
+      bottom: 100%;
+      width: auto;
+      height: auto;
+      flex-direction: column;
+      justify-content: space-evenly;
+      background-color: rgba(0, 0, 0, 0.8);
+      overflow: hidden;
+      box-sizing: border-box;
+      transition: all 0.5s ease-in-out;
+  }
+  nav .links a {
+      font-size: 20px;
+  }
+  nav :checked ~ .links {
+      bottom: 0;
+  }
+  nav .icon-burger {
+      display: block;
+  }
+  nav :checked ~ .icon-burger .line:nth-child(1) {
+      transform: translateY(10px) rotate(225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(3) {
+      transform: translateY(-10px) rotate(-225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(2) {
+      opacity: 0;
+  }
+}
+
+/* Education */
+@media screen and (max-width:1224px){
+  .education-container{
+      width: 85%;
+  }
+}
+
+@media screen and (max-width:993px){
+  .education-container{
+      width: 80%;
+      transform: translateX(15px);
+  }
+  .education-container ul::after{
+      left: -30px;
+  }
+  .education-container ul li{
+      width: 100%;
+      float: none;
+      clear: none;
+      margin-bottom: 80px;
+  }
+  .education-container ul li:nth-child(odd){
+      text-align: left;
+      transform: translateX(0);
+  }
+  .education-container ul li:nth-child(odd) .date{
+      left: 20px;
+  }
+  .education-container ul li:nth-child(odd) .circle{
+      left: -30px;
+      transform: translate(-50%, -50%);
+  }
+  .education-container ul li:nth-child(even){
+      transform: translateX(0);
+  }
+}
+
+/* footer */
+@media (max-width: 767px) {
+  .footer-col {
+      width: 50%;
+      margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+      width: 100%;
+  }
+}
+
+/* Cookies */
+@media screen and (max-width: 400px) {
+  #cookie-popup {
+    width: auto;
+  }
+}

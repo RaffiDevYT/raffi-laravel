@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=IBM+Plex+Mono:wght@100&family=Koulen&family=Quicksand:wght@300&family=Roboto+Mono:wght@100&display=swap");
+
+body {
+  font-family: "Chakra Petch", sans-serif !important;
+  background-color: #2d2b2b !important;
+  overflow-x: hidden !important;
+}
+
+.card-section {
+  margin-top: 100px !important;
+}
+
+.navbar {
+  background-color: #2d2b2b !important;
+  padding: 30px !important;
+}
+.nav-link {
+  color: #0C21F0 !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #0C21F0 !important;
+}
+
+.form-control {
+  background-color: #2d2b2b !important;
+  border-radius: 5px !important;
+  border: 2px solid #0C21F0 !important;
+  color: #0C21F0 !important;
+}
+
+.card {
+  border-radius: 20px !important;
+  border: 1px solid #262a35 !important;
+  margin: 20px;
+  background-color: #262a35 !important;
+}
+
+.card-body {
+  background-color: #262a35 !important;
+  color: #0C21F0 !important;
+}
+
+.card-title {
+  padding: 20px;
+  background-color: #222329 !important;
+  border-radius: 20px !important;
+}
+
+.header {
+  padding: 30px;
+  background-color: #2d2b2b;
+  color: #0C21F0;
+  margin-bottom: 40px;
+}
+
+.line {
+  height: 2px;
+  width: 4rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.content {
+  color: #0C21F0;
+  padding: 20px;
+  border-left: 2px solid #2d2b2b;
+}
+
+.btn-outline-dark {
+  transition: 0.2s !important;
+  background-color: #222329 !important;
+  color: #0C21F0 !important;
+  border: 1px solid #0C21F0 !important;
+}
+
+.btn-outline-dark:hover {
+  background-color: #0C21F0 !important;
+  color: #222329 !important;
+  border-radius: 5px;
+}
+
+.modal-body,
+.modal-header,
+.modal-footer {
+  background-color: #222329 !important;
+}
+
+.modal-title {
+  color: #0C21F0;
+}
+
+.btn-close {
+  background-color: #0C21F0 !important;
+}
+
+.text-primary {
+  color: #0C21F0 !important;
+}
