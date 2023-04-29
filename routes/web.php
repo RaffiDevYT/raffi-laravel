@@ -22,11 +22,7 @@ use App\Models\User;
 
 Route::get('/', function () {
     return view('index');
-<<<<<<< HEAD
 })->name('home');
-=======
-});
->>>>>>> 0f46982b61f9fb3c85c81e055c7e99b018a71a3c
 Route::get('/profile', function () {
     return view('profile.profile');
 });
@@ -35,12 +31,9 @@ Route::get('/timeline', function () {
 });
 Route::get('/blog', function () {
     return view('blog');
-<<<<<<< HEAD
 });
 Route::get('/cookies', function () {
     return view('cookies');
-=======
->>>>>>> 0f46982b61f9fb3c85c81e055c7e99b018a71a3c
 });
 Route::get('/auth/login', function () {
     return view('layouts.components.auth.login');
