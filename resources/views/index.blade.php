@@ -250,7 +250,7 @@
     <meta property="og:url" content="https://raffidev.com/"/>
     <meta property="og:type" content="profile"/>
     <meta property="og:site_name" content="Raffi &dash; Portfolio"/>
-    <meta property="og:description" content="All About Of Me :D"/>
+    <meta property="og:description" content="All about of me"/>
     <meta property="og:image" content="../../public/img/Logo Baru.png"/>
     <meta property="profile:first_name" content="Raffi"/>
     <meta property="profile:last_name" content="Athallah Wibowo"/>
@@ -260,13 +260,10 @@
     <meta property="og:locale:alternate" content="en_GB"/>
     <meta property="article:author" content="https://www.instagram.com/raffidev/"/>
     <meta property="article:publisher" content="https://www.instagram.com/raffidev/"/>
-    <meta content="summary" name="twitter:card"/>
-    <meta content="summary_large_image" name="twitter:card"/>
-    <meta content="Raffi &dash; Portfolio" name="twitter:title"/>
     <meta content="#03a9f4" name="theme-color"/>
     <meta content="#03a9f4" name="msapplication-navbutton-color"/>
     <meta content="#03a9f4" name="apple-mobile-web-app-status-bar-style"/>
-    <link href="//ogp.me" rel="dns-prefetch"/><link href="//unpkg.com" rel="dns-prefetch"/><link href="//cdn.jsdelivr.net" rel="dns-prefetch"/><link href="//fonts.gstatic.com" rel="dns-prefetch"/><link href="//code.jquery.com" rel="dns-prefetch"/><link href="//www.w3.org" rel="dns-prefetch"/><link href="//orzdesign.site" rel="dns-prefetch"/><link href="//profile.orzdesign.site" rel="dns-prefetch"/><link href="//krsonline.orzdesign.site" rel="dns-prefetch"/><link href="//kuesioner.orzdesign.site" rel="dns-prefetch"/><link href="//inventory.orzdesign.site" rel="dns-prefetch"/><link href="//pluneng.site" rel="dns-prefetch"/><link href="//cctmu.site" rel="dns-prefetch"/><link href="//goo.gl" rel="dns-prefetch"/><link href="//wa.me" rel="dns-prefetch"/><link href="//www.instagram.com" rel="dns-prefetch"/><link href="//www.youtube.com" rel="dns-prefetch"/><link href="//www.facebook.com" rel="dns-prefetch"/><link href="//discord.com" rel="dns-prefetch"/><link href="//github.com" rel="dns-prefetch"/><link href="//www.google.com" rel="dns-prefetch"/><link href="//mail.google.com" rel="dns-prefetch"/><link href="//www.blogger.com" rel="dns-prefetch"/>
+    <link href="//ogp.me" rel="dns-prefetch"/><link href="//unpkg.com" rel="dns-prefetch"/><link href="//cdn.jsdelivr.net" rel="dns-prefetch"/><link href="//fonts.gstatic.com" rel="dns-prefetch"/><link href="//code.jquery.com" rel="dns-prefetch"/><link href="//www.w3.org" rel="dns-prefetch"/><link href="//raffidev.com" rel="dns-prefetch"/><link href="//data.raffidev.com" rel="dns-prefetch"/><link href="//goo.gl" rel="dns-prefetch"/><link href="//wa.me" rel="dns-prefetch"/><link href="//www.instagram.com" rel="dns-prefetch"/><link href="//www.youtube.com" rel="dns-prefetch"/><link href="//www.facebook.com" rel="dns-prefetch"/><link href="//discord.com" rel="dns-prefetch"/><link href="//github.com" rel="dns-prefetch"/><link href="//www.google.com" rel="dns-prefetch"/><link href="//mail.google.com" rel="dns-prefetch"/><link href="//www.blogger.com" rel="dns-prefetch"/>
 
 </head>
 
@@ -275,11 +272,7 @@
         <div id="loader">
       <div class="preloader-background"></div>
       <div class="preloader">
-<<<<<<< HEAD
         <img class="center-image" src="{{ asset('img/Logo Baru.png') }}" draggable="false" />
-=======
-        <img class="center-image" src="{{ asset('img/Logo Baru.png') }}" draggable="false" alt="RaionCraft Logo" />
->>>>>>> 0f46982b61f9fb3c85c81e055c7e99b018a71a3c
         <div class="status">
           <br />
           <h1>Loading...</h1>
@@ -288,45 +281,6 @@
           You don't have to do anything. You will be redirected to the requested content shortly.
           <br />
           Please allow up to few seconds...
-<<<<<<< HEAD
-=======
-        </div>
-      </div>
-    </div>
-
-    <main id="page">
-    <!--  ======================= Start Header Area ============================== -->
-    {{-- <section id="home">
-    <header class="header_area">
-        <div class="container navbar-menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#"><h4 class="home-title">RAFIAT<span class="text-dark">HALLAH</span></h4></a>
-                <div class="burger">
-                    <input type="checkbox" />
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="navbar-collapse collapse" id="navbarNav" style="">
-                    <div class="mr-auto"></div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">about</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="profile/">profile</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="blog/">blog</a>
-                        </li>
-                    </ul>
-                </div>
-              </div>
-            </nav>
->>>>>>> 0f46982b61f9fb3c85c81e055c7e99b018a71a3c
         </div>
       </div>
     </div>
@@ -342,7 +296,6 @@
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#experience">EXPERIENCE</a></li>
             <li><a href="#brand">SKILLS</a></li>
-            <li><a href="profile/">PROFILE</a></li>
             <li><a href="blog/">BLOG</a></li>
             <div class="bx bx-moon toogle-btn" id="darkmode"></div>
         </ul>
@@ -354,7 +307,6 @@
     </nav>
     </section>
     <!--  ======================= End Header Area ============================== -->
-<<<<<<< HEAD
     <div class="wrapper">
       <div class="data">
         <p>This website uses cookies to enhance your browsing experience. <a href="cookies/"> Read more...</a></p>
@@ -364,19 +316,6 @@
         <button class="button" id="declineBtn">Disallow cookies</button>
         <button class="button" id="acceptBtn">Allow cookies</button>
       </div>
-=======
-    <div id="cookie-popup" style="display: none">
-    <div class="text-center" id="cookie-header">
-        <img src="{{ asset('img/cookie.png') }}" draggable="false" />
-    </div>
-    <div id="cookie-body">
-        <p>This website uses cookies to ensure you get the best experience on our website.</p>
-        <a href="https://www.cookieconsent.com/what-are-cookies/">Learn more...</a>
-        <div class="cookie-buttons">
-        <button id="btn-cookie" type="submit">Got it</button>
-        </div>
-    </div>
->>>>>>> 0f46982b61f9fb3c85c81e055c7e99b018a71a3c
     </div>
 
     <!--  ======================= Start Main Area ================================ -->
@@ -420,7 +359,7 @@
                         <hr>
                     </div>
                     <div class="col-lg-10 cok-md-12">
-                        <p class="text-lg-center">Hi, my name is RafiAthallah, I live in the city of Tangerang, I want to become a Cyber ​​Security and Full-Stack Developer. I first learned a programming language when I was in 7th grade, at that time I was looking at YouTube for fun with the search "Learn Website Hacking" and then I saw that website hacking had to be able and understand programming languages ​​too. That's where I became interested in becoming a Web Developer and Cyber ​​Security.</p>
+                        <p class="text-lg-center">Hi, my name is RafiAthallah, I live in the city of Tangerang, I want to become a Cyber ​​Security and Full-Stack Developer. I first learned a programming language when I was in 7th grade, at that time I was looking at YouTube for fun with the search "Learn Website & Hacking" and then I saw that website & hacking had to be able and understand programming languages ​​too. That's where I became interested in becoming a Web Developer and Cyber ​​Security.</p>
                     </div>
                 </div>
             </div>
@@ -451,14 +390,14 @@
                 </li>
                 <li>
                     <h3 class="title">Developer At GabutNetwork</h3>
-                    <p>GabutNetwork under the operational control of Arsa Group ID has been successful in running business in the networking field since 2019 which has made us more professional at every step. We always maintain these 3 main qualities to ensure the comfort of each of our buyers. <a href="https://gabutnetwork.com">Website Here!</a></p>
+                    <p>GabutNetwork under the operational control of Arsa has been successful in running business in the networking field since 2019 which has made us more professional at every step. We always maintain these 3 main qualities to ensure the comfort of each of our buyers. <a href="https://gabutnetwork.com" target="_blank">Website Here!</a></p>
                     <a href="#">2022 - 2022</a>
                     <span class="circle"></span>
                     <span class="date">Experience</span>
                 </li>
                 <li>
-                    <h3 class="title">Moderator Cyber At Isci Community</h3>
-                    <p>ISCI Team is a community where the activists of Web Developers and Ethical Hacking are. ISCI Team was founded on the 12th of the 2nd month of 2021 and was initiated by 3 people. The initial purpose of forming the ISCI Team was only for Hacking community, then switch goals to become a cyber security and web developer community and oversee crime in the internet world. <a href="http://isci.rf.gd">Website Here!</a></p>
+                    <h3 class="title">Moderator Cyber Security At Isci Community</h3>
+                    <p>ISCI Team is a community where the activists of Web Developers and Ethical Hacking are. ISCI Team was founded on the 12th of the 2nd month of 2021 and was initiated by 3 people. The initial purpose of forming the ISCI Team was only for Hacking community, then switch goals to become a cyber security and web developer community and oversee crime in the internet world. <a href="http://isci.rf.gd" target="_blank">Website Here!</a></p>
                     <a href="#">2022 - Forever</a>
                     <span class="circle"></span>
                     <span class="date">Experience</span>
@@ -640,7 +579,7 @@
                             </div>
                             <div class="title py-4">
                                 <h4 class="text-uppercase title-text">Discord Bot</h4>
-                                <span class="text-secondary">By RaffiDev#2578 And Lynnn#6969</span>
+                                <span class="text-secondary">By RaffiDev#2578</span>
                             </div>
                         </div>
                     </div>
@@ -682,20 +621,13 @@
                             Hacking community, then switch goals to become a cyber security and
                             web developer community and oversee crime in the internet world.
                         </p>
-<<<<<<< HEAD
                         <button id="copyip" class="btn button-hacking" value="http://isci.rf.gd">Website Here!</button>
-=======
-                        <a href="http://isci.rf.gd/" target="_blank" type="button" class="btn button primary-button mr-4 text-uppercase button-hacking"><span">Website for ISCI
-                                Community</span></a>
->>>>>>> 0f46982b61f9fb3c85c81e055c7e99b018a71a3c
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--  ======================== End Hacking Comunity Area ==============================  -->
-
-    <!--  ======================= End Main Area ================================ -->
 
     <!-- ======================= Contact Admin ======================= -->
         <section id="contact">
@@ -714,10 +646,11 @@
                             <span class="badge bg-primary">Web Developer</span>
                             <span class="badge bg-primary">Cyber Security</span>
                             <span class="badge bg-primary">Software Developer</span>
+                            <span class="badge bg-primary">Data Science</span>
                             <hr />
                             <br />
                             <p class="card-text" id="aboutText1">Coming from Tangerang city, and being the moderator of ISCI,
-                            under the pseudonym ./HC - R4ff1Dev.sh.s</p>
+                            under the pseudonym ./HC - R4ff1Dev.sh</p>
                             <br />
                             <a href="https://wa.me/6285157868689/" target="_blank" class="button">
                             <span>Contact</span>
@@ -738,10 +671,11 @@
                             <span class="badge bg-primary">Web Developer</span>
                             <span class="badge bg-primary">Cyber Security</span>
                             <span class="badge bg-primary">Software Developer</span>
+                            <span class="badge bg-primary">Data Science</span>
                             <hr />
                             <br />
                             <p class="card-text" id="aboutText3">Coming from Tangerang city, and being the moderator of ISCI,
-                            under the pseudonym ./HC - R4ff1Dev.sh.s</p>
+                            under the pseudonym ./HC - R4ff1Dev.sh</p>
                             <br />
                             <a href="https://wa.me/6285157868689" target="_blank" class="button"><span>Contact</span></a>
                             <br />
@@ -760,10 +694,11 @@
                             <span class="badge bg-primary">Web Developer</span>
                             <span class="badge bg-primary">Cyber Security</span>
                             <span class="badge bg-primary">Software Developer</span>
+                            <span class="badge bg-primary">Data Science</span>
                             <hr />
                             <br />
                             <p class="card-text" id="aboutText3">Coming from Tangerang city, and being the moderator of ISCI,
-                            under the pseudonym ./HC - R4ff1Dev.sh.s</p>
+                            under the pseudonym ./HC - R4ff1Dev.sh</p>
                             <br />
                             <a href="https://wa.me/6285157868689" target="_blank" class="button"><span>Contact</span></a>
                             <br />
@@ -782,54 +717,13 @@
     <!-- ======================= END CONTACT ======================= -->
 
     <!-- ======================= Footer ======================= -->
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col">
-                        <h4>company</h4>
-                        <ul>
-                            <li><a href="#about"></i> about</a>
-                            <li><a href="blog/"></i> blog</a>
-                            <li><a href="{{ route('login.action') }}""></i> Login</a>
-                            <li><a href="{{ route('register.action') }}""></i> Register</a>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>get help</h4>
-                        <ul>
-                            <li><a href="https://discord.gg/qqbXQJ9dak" target="_blank">Discord</a></li>
-                            <li><a href="https://alquran.raffidev.com" target="_blank">Alquran Digital</a></li>
-                            <li><a href="#">payment options</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>contact info</h4>
-                        <ul>
-                            <li><a href="https://wa.me/6285157868689" target="_blank"> <i class="fas fa-phone"></i> +62 851-5786-8689</a></li>
-                            <li><a href="mailto:raffi@raffidev.com"> <i class="fas fa-envelope"></i> raffi@raffidev.com</a></li>
-                            <li><a href="#"> <i class="fas fa-map-marker-alt"></i>  Curug, Tangerang, Banten</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>follow me</h4>
-                        <div class="social-links">
-                            <a href="https://wa.me/6285157868689" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                            <a href="https://"><i class="fab fa-discord"></i></a>
-                            <a href="https://instagram.com/raffidev" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <a href="https://github.com/RaffiDevYT" target="_blank"><i class="fab fa-github git"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
         <div class="lastline text-center">
-                    <p class="para" style="color: white;">
-                        © 2020
-<<<<<<< HEAD
-                        <a href="https://instagram.com/raffidev" target="_blank"><span style="color: #fff;">Raffi Solutions</span></a>
-=======
-                        <a href="https://instagram.com/raffidev" target="_blank"><span style="color: var(--primary-color);">Raffi Solutions</span></a>
->>>>>>> 0f46982b61f9fb3c85c81e055c7e99b018a71a3c
+        <p class="para" style="color: #fff;">
+                    © 2020 Designed By <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="red" stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
+                                            </svg>
+                        <a href="https://instagram.com/raffidev" target="_blank" style="text-decoration: none;"><span style="color: #fff;">Raffi Solutions</span></a>
                     </p>
         </div>
     <!-- ======================= End Footer ======================= -->
@@ -856,7 +750,6 @@
         <script src="{{ asset('vendor/owl-carousel/js/owl.carousel.min.js') }}"></script>
 
         <!--  custom js file -->
-<<<<<<< HEAD
         <script src="{{ asset('js/particles.min.js') }}"></script>
         <script src="{{ asset('js/main.js') }}"></script>
         <script src="{{ asset('js/app.js') }}"></script>
@@ -864,19 +757,12 @@
         <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
         <script>
             var typed = new Typed(".auto-input", {
-                strings: ["Web Developer", "Frontend Developer", "Cyber Security"],
+                strings: ["Web Developer", "Frontend Developer", "Cyber Security", "Data Science"],
                 typeSpeed: 100,
                 backSpeed: 100,
                 loop: true
             })
         </script>
-=======
-        <script src="{{ url('js/particles.min.js') }}"></script>
-        <script src="{{ url('js/main.js') }}"></script>
-        <script src="{{ url('js/app.js') }}"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
->>>>>>> 0f46982b61f9fb3c85c81e055c7e99b018a71a3c
         <!-- crisp chat js file -->
         <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="df4193ed-7abc-4cda-901f-5cb9872e88f7";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 
