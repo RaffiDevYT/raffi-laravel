@@ -10,7 +10,6 @@ body {
 /* CSS Variables */
 
 :root {
-<<<<<<< HEAD
     --primary-color: #081b29;
     --primary-color2: #081b29;
     --second-color: #112e42;
@@ -19,19 +18,6 @@ body {
     --hitam: #24262b;
     --putih: #ffffff;
     --gradient-color: linear-gradient(90deg, #081b29 0%, #081b29 100%);
-=======
-    --primary-color: #0C21F0;
-    --primary-color2: #0C21F0;
-    --title-color: #0f0f0e;
-    --hitam-kece: #000000;
-    --hitam: #24262b;
-    --text-color: #2d2b2b;
-    --maincolor: #267487;
-    --dua-color: #35a1bb;
-    --tiga-color: #7bf7ff;
-    --border-color: #201f1f17;
-    --gradient-color: linear-gradient(90deg, #0C21F0 0%, #0C21F0 100%);
->>>>>>> 0f46982b61f9fb3c85c81e055c7e99b018a71a3c
     --shadow-color: 0px 10px 30px rgb(15, 111, 115);
     --box-shadow: 0px 10px 30px rgba(8, 27, 41);
     --box-three-color: rgba(35, 120, 182);
