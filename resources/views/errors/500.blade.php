@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!-- 
     HAYO MAU NGAPAIN?
  -->
@@ -198,8 +197,6 @@
 
 
 
-=======
->>>>>>> 0f46982b61f9fb3c85c81e055c7e99b018a71a3c
 <!DOCTYPE html>
 <html lang="en">
 <head>
