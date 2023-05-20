@@ -38,103 +38,8 @@ body {
     overflow-x: hidden;
     background: var(--bg-color);
     color: var(--text-color);
+    transition: background 0.8s color 0.8s;
 }
-
-/*---------------------------------------------
-  Preloader
----------------------------------------------*/
-
-#loader .preloader-background {
-    background: #0a0e19;
-    background-image: url("../img/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    position: fixed;
-    content: "";
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 5;
-  }
-  
-  #loader .status {
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-  }
-  
-  #loader .status > h1 {
-    color: #f0f7fc;
-    font-size: 35px;
-    text-align: center;
-    line-height: 1.2;
-    margin: 0;
-  }
-  
-  #loader .center-image {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: 200px;
-  }
-  
-  #loader .preloader {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    background-image: linear-gradient(60deg, #0a0e19 10%, transparent 100%);
-    color: #ededed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 6;
-  }
-  
-  #loader .center-image {
-    -webkit-animation-duration: 1.5s;
-    animation-duration: 1.5s;
-    -webkit-animation-name: spinner;
-    animation-name: spinner;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-  }
-  
-  @-webkit-keyframes spinner {
-    0%,
-    10% {
-      -webkit-transform: rotateY(0deg);
-      transform: rotateY(0deg);
-    }
-    90%,
-    100% {
-      -webkit-transform: rotateY(360deg);
-      transform: rotateY(360deg);
-    }
-  }
-  
-  @keyframes spinner {
-    0%,
-    10% {
-      -webkit-transform: rotateY(0deg);
-      transform: rotateY(0deg);
-    }
-    90%,
-    100% {
-      -webkit-transform: rotateY(360deg);
-      transform: rotateY(360deg);
-    }
-  }
-  
-  #loader.loaded {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-  }
 
 /*---------------------------------------------
   Preloader
@@ -320,24 +225,20 @@ nav .icon-burger .line {
 
 #hero {
     min-height: 120vh;
-    background-color: #fff;
+    background-image: url(../img/banner/background.jpg);
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#hero .container {
-}
-
-#hero .row {
-}
 
 #hero h1 {
     font-size: 3rem;
-    color: var(--primary-color);
+    color: var(--putih);
 }
 
 #hero h1 span {
-    color: #000000;
+    color: var(--putih);
 }
 
 #hero p {
@@ -347,7 +248,7 @@ nav .icon-burger .line {
 }
 
 #hero span {
-    color: var(--primary-color);
+    color: var(--putih);
 }
 
 #hero .btn-costum1 {
@@ -762,94 +663,24 @@ ul li .date{
   Footer Area
 ---------------------------------------------*/
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-body {
-    line-height: 1.5;
-    font-family: "Poppins", sans-serif;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .container {
     max-width: 1170px;
     margin: auto;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-ul {
-    list-style: none;
-}
-.footer {
-    background-color: #24262b;
-    padding: 70px 0;
-}
-.footer-col {
-    width: 25%;
-    padding: 0 15px;
-}
-.footer-col h4 {
-    font-size: 18px;
-    color: #ffffff;
-    text-transform: capitalize;
-    margin-bottom: 35px;
-    font-weight: 500;
-    position: relative;
-}
-.footer-col h4::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: #081b29;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-}
-.footer-col ul li:not(:last-child) {
-    margin-bottom: 10px;
-}
-.footer-col ul li a {
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 300;
-    color: #bbbbbb;
-    display: block;
-    transition: all 0.3s ease;
-}
-.footer-col ul li a:hover {
-    color: #ffffff;
-    padding-left: 8px;
-}
-.footer-col .social-links a {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-color: rgba(255, 255, 255, 0.2);
-    margin: 0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #ffffff;
-    transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover {
-    color: #24262b;
-    background-color: #ffffff;
+
+.lastline svg {
+  animation: love 0.5s alternate infinite;
 }
 
-.footer .lastline {
+.lastline {
     text-align: center;
     border-top: 0.1rem solid #222;
     color: #24262b;
     padding: 2rem;
     padding-top: 2.5rem;
     font-size: 2rem;
+    background-color: #24262b !important;
+    padding-bottom: 20px !important;
 }
 
 /*---------------------------------------------
@@ -882,15 +713,10 @@ ul {
     text-decoration: none;
 }
 
-.lastline {
-    background-color: #24262b !important;
-    padding-bottom: 20px !important;
-}
-
 .swipeup {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    border-radius: 6px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     background-color: var(--primary-color);
     display: flex;
@@ -901,6 +727,8 @@ ul {
     left: 35px;
     cursor: pointer;
     text-decoration: none;
+    font-size: 20px;
+    margin-right: 0px;
 }
 
 .arrayupb {
@@ -1025,48 +853,56 @@ ul {
     cursor: pointer;
   }
 
-.toogle-btn img {
-    width: 25px;
-    margin-left: 10px;
-  }
-
 .bx {
-    margin-right: -7.5rem;
-    margin-top: 1rem
+    margin-top: 1rem;
   }
 
 #darkmode {
     position: absolute;
-    top: 1.4rem;
-    right: 2rem;
+    top: 0.7rem;
+    right: 2.5rem;
   }
 
 #darkmode {
-    font-size: 22px;
+    font-size: 24px;
+    margin-right: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 45px;
+    width: 45px;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: var(--primary-color);
     cursor: pointer;
   }
+
+#darkmode:hover {
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+}
 
 body.active {
     --text-color: #fff;
     --bg-color: #000000;
+    transition: all 0.8s ease-in-out;
   }
 body.active #hero {
     background-color: var(--text-color);
-    background-color: var(--bg-color);
+    background-color: var(--text-color);
   }
 body.active #hero h1 {
     background-color: var(--text-color);
-    background-color: var(--bg-color);
+    background-color: transparent;
     color: white;
   }
 body.active #hero span {
     background-color: var(--text-color);
-    background-color: var(--bg-color);
+    background-color: transparent;
     color: white;
   }
 body.active #hero p {
     background-color: var(--text-color);
-    background-color: var(--bg-color);
+    background-color: transparent;
     color: white;
   }
 body.active #hero button {
