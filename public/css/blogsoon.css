@@ -1,16 +1,9 @@
 /* Config here and delete comment */
 :root{
-<<<<<<< HEAD
-    --di-primary-color: #112e42;
+    --di-primary-color: #1a202c;
     --di-secondary-color: #ffc42f;
-    --di-background-color_1: #112e42;
-    --di-background-color_2: #112e42;
-=======
-    --di-primary-color: #0C21F0;
-    --di-secondary-color: #ffc42f;
-    --di-background-color_1: #0C21F0;
-    --di-background-color_2: #0C21F0;
->>>>>>> 0f46982b61f9fb3c85c81e055c7e99b018a71a3c
+    --di-background-color_1: #1a202c;
+    --di-background-color_2: #1a202c;
     --di-text-color: white;
 }
 /*--*/
