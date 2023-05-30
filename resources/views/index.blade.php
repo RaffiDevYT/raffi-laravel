@@ -530,34 +530,6 @@
                    <div class="col-lg-4 col-md-6 col-sm-12 element-item website">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="../../img/portfolio/project2.png">
-                                    <img src="../../img/portfolio/project2.png" alt="portfolio-2"
-                                        class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase title-text">Alquran Digital</h4>
-                                <span class="text-secondary">Web Design</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item website">
-                        <div class="our-project">
-                            <div class="img">
-                            <a class="test-popup-link" href="../../img/portfolio/project3.png">
-                                    <img src="../../img/portfolio/project3.png" alt="portfolio-3"
-                                        class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase title-text">Islamic App Digital</h4>
-                                <span class="text-secondary">Web Design</span>
-                            </div>
-                        </div>
-                    </div>
-                   <div class="col-lg-4 col-md-6 col-sm-12 element-item website">
-                        <div class="our-project">
-                            <div class="img">
                                 <a class="test-popup-link" href="../../img/portfolio/project4.png">
                                     <img src="../../img/portfolio/project4.png" alt="portfolio-4"
                                         class="img-fluid">
@@ -583,21 +555,6 @@
                             </div>
                         </div>
                     </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="../../img/portfolio/p9.jpg">
-                                    <img src="../../img/portfolio/p9.jpg" alt="portfolio-9"
-                                        class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase title-text">Camera</h4>
-                                <span class="text-secondary">Following, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
             </div>
             </div>
@@ -645,8 +602,8 @@
                             <!-- <h6 class="card-subtitle mb-2 text-center text-gray-400">ISCI Leader</h6> -->
                             <span class="badge bg-primary">Web Developer</span>
                             <span class="badge bg-primary">Cyber Security</span>
-                            <span class="badge bg-primary">Software Developer</span>
                             <span class="badge bg-primary">Data Science</span>
+                            <span class="badge bg-primary">Data Analyst</span>
                             <hr />
                             <br />
                             <p class="card-text" id="aboutText1">Coming from Tangerang city, and being the moderator of ISCI,
@@ -670,8 +627,8 @@
                             <!-- <h6 class="card-subtitle mb-2 text-center text-gray-400">ISCI Moderator</h6> -->
                             <span class="badge bg-primary">Web Developer</span>
                             <span class="badge bg-primary">Cyber Security</span>
-                            <span class="badge bg-primary">Software Developer</span>
                             <span class="badge bg-primary">Data Science</span>
+                            <span class="badge bg-primary">Data Analyst</span>
                             <hr />
                             <br />
                             <p class="card-text" id="aboutText3">Coming from Tangerang city, and being the moderator of ISCI,
@@ -693,8 +650,8 @@
                             <!-- <h6 class="card-subtitle mb-2 text-center text-gray-400">ISCI Moderator</h6> -->
                             <span class="badge bg-primary">Web Developer</span>
                             <span class="badge bg-primary">Cyber Security</span>
-                            <span class="badge bg-primary">Software Developer</span>
                             <span class="badge bg-primary">Data Science</span>
+                            <span class="badge bg-primary">Data Analyst</span>
                             <hr />
                             <br />
                             <p class="card-text" id="aboutText3">Coming from Tangerang city, and being the moderator of ISCI,
@@ -719,7 +676,7 @@
     <!-- ======================= Footer ======================= -->
         <div class="lastline text-center">
         <p class="para" style="color: #fff;">
-                    © 2020 Designed By <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="red" stroke-linecap="round" stroke-linejoin="round">
+                    © 2020 Created By <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="red" stroke-linecap="round" stroke-linejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                                 <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
                                             </svg>
