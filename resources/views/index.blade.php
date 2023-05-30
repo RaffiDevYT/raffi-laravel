@@ -383,7 +383,7 @@
                 </li>
                 <li>
                     <h3 class="title">SMP BINONG PERMAI</h3>
-                    <p>SMP Binong Permai An Nurmaniyah Curug, Tangerang is one of the top rated place listed as <a href="https://goo.gl/maps/jNR8pUyAg39y7exm9">School in Tangerang</a></p>
+                    <p>SMP Binong Permai An Nurmaniyah Curug, Tangerang is one of the top rated place listed as <a href="https://goo.gl/maps/QTFeVbkXVxA8azrq7">School in Tangerang</a></p>
                     <a href="#">2021 - 2024</a>
                     <span class="circle"></span>
                     <span class="date">Education</span>
