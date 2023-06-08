@@ -18,7 +18,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/blog2.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/blog.css') }}">
 
 </head>
 <body>
