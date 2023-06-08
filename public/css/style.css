@@ -105,32 +105,6 @@ body {
     animation-iteration-count: infinite;
   }
   
-  @-webkit-keyframes spinner {
-    0%,
-    10% {
-      -webkit-transform: rotateY(0deg);
-      transform: rotateY(0deg);
-    }
-    90%,
-    100% {
-      -webkit-transform: rotateY(360deg);
-      transform: rotateY(360deg);
-    }
-  }
-  
-  @keyframes spinner {
-    0%,
-    10% {
-      -webkit-transform: rotateY(0deg);
-      transform: rotateY(0deg);
-    }
-    90%,
-    100% {
-      -webkit-transform: rotateY(360deg);
-      transform: rotateY(360deg);
-    }
-  }
-  
   #loader.loaded {
     opacity: 0;
     visibility: hidden;
