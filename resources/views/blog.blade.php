@@ -74,7 +74,7 @@
                                 <div class="col-md-12">
                                     <div class="item">
                                         <div class="post-img">
-                                            <img src="../../img/portfolio/project1.png" alt="">
+                                            <img src="" alt="soon">
                                             <a href="#0" class="date">
                                                 <span>14</span>
                                                 <span>Maret 2020</span>
