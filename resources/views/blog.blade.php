@@ -1,238 +1,98 @@
-
-<!-- 
-    HAYO MAU NGAPAIN?
- -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="in making..">
-    <!--    <meta name="theme-color" content="#5d040e"> for navigator color on mobile -->
-    <meta name="author" content="RafiAthallah">
-    <meta property="og:title" content="Rafi Website">
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Rafi Athallah">
+    <meta name="description" content="Hello, my name is Rafi Athallah. 1111 I created this website for my personal data and photos">
+    <meta name="author" content="">
+    <meta property="og:site_name" content="Rafi Athallah">
+    <meta property="og:url" content="https://aryawiratama.dev/">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://raffidev.com">
-    <meta property="og:image" content="./images/logo.webp">
-    <meta property="og:description" content="in making">
-    <meta property="og:site_name" content="RafiAthallah">
+    <meta property="og:title" content="Rafi Athallah">
+    <meta property="og:description" content="Hello, my name is Rafi Athallah. 1111 I created this website for my personal data and photos">
 
-    <link rel="shortcut icon" href="{{ asset('img/Logo Baru.png') }}">
-    <link href="{{ asset('css/blogsoon.css') }}" rel="stylesheet">
+    <!-- Title -->
+    <title>Rafi Athallah</title>
 
-    <title></Building></title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/blog2.css') }}">
+
 </head>
 <body>
-    <div id="particles-js"></div>
-    <main>
-        <h1>ON WORKING</h1>
-        <p>We are building a website blog please wait</p>
-        <hr>
-        <div>
-            <a href="https://discord.gg/VKfC3TAQv3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
-                    <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
-                </svg>
-            </a>
+        <div oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;' ondragstart='return false' onselectstart='return false' style='-moz-user-select: none; cursor: default;' class="page blog" id="page-blog">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="content section-padding">
+                            <div class="section-head">
+                                <h5><span>B</span>log</h5>
+                                <h3>Blog</h3>
+                            </div>
+                                 <div class="row">
+                                <div class="col-md-12">
+                                    <div class="item">
+                                        <div class="post-img">
+                                            <img src="../../img/blog/temen.jpg" alt="">
+                                            <a href="#0" class="date">
+                                                <span>23</span>
+                                                <span>May 2023</span>
+                                            </a>
+                                        </div>
+                                        <div class="cont">
+                                            <a href="#0" class="tags">#RafiAthallah</a>
+                                            <h4>Foto My Friends</h4>
+                                            <p>Photos with friends while at school, during free hours                                            </p>
+                                            <a href="https://www.instagram.com/p/CslKx1wy5hzU6qeOCtMBlTJNGcPDamkWu7GUeA0/" class="more">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="row">
+                                <div class="col-md-12">
+                                    <div class="item">
+                                        <div class="post-img">
+                                            <img src="../../img/blog/guru.jpg" alt="">
+                                            <a href="#0" class="date">
+                                                <span>25</span>
+                                                <span>November 2022</span>
+                                            </a>
+                                        </div>
+                                        <div class="cont">
+                                            <a href="#0" class="tags">#RafiAthallah</a>
+                                            <h4>Foto Keluarga</h4>
+                                            <p>A Picture With My Teacher's Birthday And We Surprised Him                                            </p>
+                                            <a href="https://www.instagram.com/p/ClYGi5hp3rXVcZa3YESm6t9WJzpISxnZfcSh3g0/" class="more">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="row">
+                                <div class="col-md-12">
+                                    <div class="item">
+                                        <div class="post-img">
+                                            <img src="../../img/portfolio/project1.png" alt="">
+                                            <a href="#0" class="date">
+                                                <span>14</span>
+                                                <span>Maret 2020</span>
+                                            </a>
+                                        </div>
+                                        <div class="cont">
+                                            <a href="#0" class="tags">#RafiAthallah</a>
+                                            <h4>Foto Keluarga</h4>
+                                            <p>Family Photo As Usual Every Year. Yes, that\'s our family culture. Every year there must be a family photo                                            </p>
+                                            <a href="https://www.instagram.com/p/B9t46__p6dj/?utm_source=ig_web_button_share_sheet" class="more">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-    </main>
-    <script src="{{ asset('js/particles.min.js') }}"></script>
-    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
