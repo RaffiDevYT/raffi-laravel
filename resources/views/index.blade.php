@@ -203,11 +203,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content name="author">
-    <meta content="Website Portfolio Rafi Athallah" name="description">
-    <link rel="shortcut icon" href="{{ asset('img/Logo Baru.png') }}">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Rafi Athallah">
+    <link rel="shortcut icon" href="{{ asset('img/data/rafi.jpg') }}">
+    <meta name="description" content="Hello, my name is Rafi Athallah I created this website for my personal data and photos">
+    <meta name="author" content="RafiAthallah">
+    <meta property="og:site_name" content="Rafi Athallah">
+    <meta property="og:url" content="https://aryawiratama.dev/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rafi Athallah">
+    <meta property="og:description" content="Hello, my name is Rafi Athallah I created this website for my personal data and photos">
     <title>Rafi Athallah</title>
 
 
@@ -236,35 +242,6 @@
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
-    <meta content="index, follow" name="robots"/>
-    <meta content="id" name="geo.country"/>
-    <meta content="Indonesia" name="geo.placename"/>
-    <meta content="general" name="rating"/>
-    <meta content="Rafi Athallah Wibowo" name="Author"/>
-    <link href="https://www.instagram.com/raffidev/" rel="publisher"/>
-    <link href="https://www.instagram.com/raffidev/" rel="author"/>
-    <link href="https://www.instagram.com/raffidev/" rel="me"/>
-    <meta name="google-site-verification" content="afmRzE8HqACVR8kBtqqXdh4q5xrszZnOEnPtzzNlLCE"/>
-    <meta name="msvalidate.01" content="26E64DF8D8B14C5AF83FBD804474B8C4"/>
-    <meta property="og:title" content="Raffi &dash; Portfolio"/>
-    <meta property="og:url" content="https://raffidev.com/"/>
-    <meta property="og:type" content="profile"/>
-    <meta property="og:site_name" content="Raffi &dash; Portfolio"/>
-    <meta property="og:description" content="All about of me"/>
-    <meta property="og:image" content="../../public/img/Logo Baru.png"/>
-    <meta property="profile:first_name" content="Raffi"/>
-    <meta property="profile:last_name" content="Athallah Wibowo"/>
-    <meta property="profile:gender" content="male"/>
-    <meta property="og:locale" content="id_ID"/>
-    <meta property="og:locale:alternate" content="en_US"/>
-    <meta property="og:locale:alternate" content="en_GB"/>
-    <meta property="article:author" content="https://www.instagram.com/raffidev/"/>
-    <meta property="article:publisher" content="https://www.instagram.com/raffidev/"/>
-    <meta content="#03a9f4" name="theme-color"/>
-    <meta content="#03a9f4" name="msapplication-navbutton-color"/>
-    <meta content="#03a9f4" name="apple-mobile-web-app-status-bar-style"/>
-    <link href="//ogp.me" rel="dns-prefetch"/><link href="//unpkg.com" rel="dns-prefetch"/><link href="//cdn.jsdelivr.net" rel="dns-prefetch"/><link href="//fonts.gstatic.com" rel="dns-prefetch"/><link href="//code.jquery.com" rel="dns-prefetch"/><link href="//www.w3.org" rel="dns-prefetch"/><link href="//raffidev.com" rel="dns-prefetch"/><link href="//data.raffidev.com" rel="dns-prefetch"/><link href="//goo.gl" rel="dns-prefetch"/><link href="//wa.me" rel="dns-prefetch"/><link href="//www.instagram.com" rel="dns-prefetch"/><link href="//www.youtube.com" rel="dns-prefetch"/><link href="//www.facebook.com" rel="dns-prefetch"/><link href="//discord.com" rel="dns-prefetch"/><link href="//github.com" rel="dns-prefetch"/><link href="//www.google.com" rel="dns-prefetch"/><link href="//mail.google.com" rel="dns-prefetch"/><link href="//www.blogger.com" rel="dns-prefetch"/>
-
 </head>
 
 <body>
@@ -272,7 +249,7 @@
         <div id="loader">
       <div class="preloader-background"></div>
       <div class="preloader">
-        <img class="center-image" src="{{ asset('img/Logo Baru.png') }}" draggable="false" />
+        <img class="center-image" src="{{ asset('img/data/rafi.jpg') }}" draggable="false" />
         <div class="status">
           <br />
           <h1>Loading...</h1>

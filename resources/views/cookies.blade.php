@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
     <meta content="index, follow" name="robots"/>
-    <link rel="shortcut icon" href="{{ asset('img/Logo Baru.png') }}">
+    <link rel="shortcut icon" href="{{ asset('img/data/rafi.jpg') }}">
     <meta content="id" name="geo.country"/>
     <meta content="Indonesia" name="geo.placename"/>
     <meta content="general" name="rating"/>
@@ -35,7 +35,7 @@
     <meta property="og:type" content="profile"/>
     <meta property="og:site_name" content="Raffi &dash; Portfolio"/>
     <meta property="og:description" content="All About Of Me :D"/>
-    <meta property="og:image" content="../../public/img/Logo Baru.png"/>
+    <meta property="og:image" content="../../public/img/data/rafi.jpg"/>
     <meta property="profile:first_name" content="Raffi"/>
     <meta property="profile:last_name" content="Athallah Wibowo"/>
     <meta property="profile:gender" content="male"/>
@@ -57,7 +57,7 @@
     <div id="loader">
       <div class="preloader-background"></div>
       <div class="preloader">
-        <img class="center-image" src="{{ asset('img/Logo Baru.png') }}" draggable="false" />
+        <img class="center-image" src="{{ asset('img/data/rafi.jpg') }}" draggable="false" />
         <div class="status">
           <br />
           <h1>Loading...</h1>

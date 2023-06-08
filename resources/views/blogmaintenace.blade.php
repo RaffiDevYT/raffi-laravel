@@ -213,7 +213,7 @@
     <meta property="og:description" content="in making">
     <meta property="og:site_name" content="RafiAthallah">
 
-    <link rel="shortcut icon" href="{{ asset('img/Logo Baru.png') }}">
+    <link rel="shortcut icon" href="{{ asset('img/data/rafi.jpg') }}">
     <link href="{{ asset('css/blogsoon.css') }}" rel="stylesheet">
 
     <title></Building></title>

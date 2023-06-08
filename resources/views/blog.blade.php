@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="keywords" content="Rafi Athallah">
-    <meta name="description" content="Hello, my name is Rafi Athallah. 1111 I created this website for my personal data and photos">
+    <link rel="shortcut icon" href="{{ asset('img/data/rafi.jpg') }}">
+    <meta name="description" content="Hello, my name is Rafi Athallah I created this website for my personal data and photos">
     <meta name="author" content="RafiAthallah">
     <meta property="og:site_name" content="Rafi Athallah">
     <meta property="og:url" content="https://aryawiratama.dev/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Rafi Athallah">
-    <meta property="og:description" content="Hello, my name is Rafi Athallah. 1111 I created this website for my personal data and photos">
+    <meta property="og:description" content="Hello, my name is Rafi Athallah I created this website for my personal data and photos">
 
     <!-- Title -->
     <title>Rafi Athallah</title>

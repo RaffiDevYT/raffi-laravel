@@ -216,7 +216,7 @@
 
     {{-- My Styles --}}
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="shortcut icon" href="{{ asset('img/Logo Baru.png') }}">
+    <link rel="shortcut icon" href="{{ asset('img/data/rafi.jpg') }}">
 
     <title>Blog | {{ $title }}</title>
   </head>
