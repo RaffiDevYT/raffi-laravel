@@ -9,7 +9,7 @@
     <meta name="description" content="Hello, my name is Rafi Athallah I created this website for my personal data and photos">
     <meta name="author" content="RafiAthallah">
     <meta property="og:site_name" content="Rafi Athallah">
-    <meta property="og:url" content="https://aryawiratama.dev/">
+    <meta property="og:url" content="https://raffidev.com/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Rafi Athallah">
     <meta property="og:description" content="Hello, my name is Rafi Athallah I created this website for my personal data and photos">
