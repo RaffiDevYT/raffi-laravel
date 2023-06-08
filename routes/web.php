@@ -32,6 +32,9 @@ Route::get('/timeline', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+// Route::get('/blogmaintenace', function () {
+//     return view('blog2');
+// });
 Route::get('/cookies', function () {
     return view('cookies');
 });
