@@ -63,7 +63,7 @@
                                         </div>
                                         <div class="cont">
                                             <a href="#0" class="tags">#RafiAthallah</a>
-                                            <h4>Foto Keluarga</h4>
+                                            <h4>Foto Teacher Birthday</h4>
                                             <p>A Picture With My Teacher's Birthday And We Surprised Him                                            </p>
                                             <a href="https://www.instagram.com/p/ClYGi5hp3rXVcZa3YESm6t9WJzpISxnZfcSh3g0/" class="more">Read More</a>
                                         </div>
