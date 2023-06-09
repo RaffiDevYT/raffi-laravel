@@ -1,0 +1,183 @@
+
+/* ----------------------------------------------------------------
+     [ 01 Start Basics ]
+-----------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    word-wrap: break-word;
+  }
+  
+  body {
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Dosis', sans-serif;
+    overflow-x: hidden !important;
+    background: #12141C;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #999;
+    line-height: 2;
+    margin: 0;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  ul {
+    margin-bottom: 0;
+  }
+  
+  span, a, a:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .section-padding {
+    padding: 60px 40px;
+  }
+  
+  .section-head {
+    margin-bottom: 50px;
+    position: relative;
+  }
+  .section-head h5 {
+    color: #eee;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  .section-head h5 span {
+    color: #2378B6;
+    font-size: 55px;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+    margin-right: 5px;
+    padding: 0 5px;
+  }
+  .section-head h5 span:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #2D2D32;
+    opacity: .5;
+    z-index: -1;
+  }
+  .section-head h3 {
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    color: #2A2A2E;
+    position: absolute;
+    bottom: -30%;
+    left: 8%;
+    width: 100%;
+    text-align: left;
+    opacity: .2;
+    z-index: -1;
+  }
+  .sub-head h5 {
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+  }
+  .sub-head span {
+    color: #2378B6;
+  }
+  
+  
+  /* ----------------------------------------------------------------
+       [ End Basics ]
+  -----------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+       [ 04 Start page ]
+  -----------------------------------------------------------------*/
+  
+  .page .content, .page.home {
+    height: z00vh;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+  }
+  
+  .page .content::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* ----------------------------------------------------------------
+       [ End page ]
+  -----------------------------------------------------------------*
+  /* ----------------------------------------------------------------
+       [ 10 Start contact ]
+  -----------------------------------------------------------------*/
+  .contact-info .item {
+    margin-bottom: 50px;
+  }
+  .contact-info .icon {
+    background: #12141C;
+    border: 1px solid #2A2A2E;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #2378B6;
+    float: left;
+  }
+  .contact-info .cont {
+    margin-left: 80px;
+  }
+  .contact-info .cont h6 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .contact-info .cont p {
+    display: inline-block;
+    font-size: 14px;
+    border-bottom: 1px solid #2D2D32;
+  }
+  
+  .contact input, .contact textarea {
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-bottom: 1px solid #2A2A2E;
+    background: #12141C;
+    font-size: 13px;
+  }
+  .contact input:focus, .contact textarea:focus {
+    border-color: #555;
+  }
+  .contact textarea {
+    height: 140px;
+  }
+  
+  /* ----------------------------------------------------------------
+       [ End contact ]
+  -----------------------------------------------------------------*/
