@@ -26,15 +26,12 @@ Route::get('/', function () {
 Route::get('/profile', function () {
     return view('profile.profile');
 });
-Route::get('/timeline', function () {
-    return view('timeline');
-});
 Route::get('/blog', function () {
     return view('blog');
 });
-// Route::get('/blogmaintenace', function () {
-//     return view('blog2');
-// });
+Route::get('/contact', function () {
+    return view('contact');
+});
 Route::get('/cookies', function () {
     return view('cookies');
 });
