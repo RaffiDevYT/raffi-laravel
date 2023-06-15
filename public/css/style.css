@@ -647,14 +647,14 @@ ul li .date{
 }
 
 .lastline {
-    text-align: center;
     border-top: 0.1rem solid #222;
-    color: #24262b;
-    padding: 2rem;
-    padding-top: 2.5rem;
+    padding: .8rem 0;
     font-size: 2rem;
-    background-color: #24262b !important;
-    padding-bottom: 20px !important;
+    background-color: #0F0F0D !important;
+}
+
+.lastline p {
+  margin-top: 20px;
 }
 
 /*---------------------------------------------
