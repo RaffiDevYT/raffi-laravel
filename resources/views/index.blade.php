@@ -41,7 +41,6 @@
     <!--  Responsive css file  -->
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-
 </head>
 
 <body>
@@ -448,11 +447,8 @@
     <!-- ======================= Footer ======================= -->
         <div class="lastline text-center">
         <p class="para" style="color: #fff;">
-                    © 2020 Created By <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="red" stroke-linecap="round" stroke-linejoin="round">
-                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                                <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
-                                            </svg>
-                        <a href="https://instagram.com/raffidev" target="_blank" style="text-decoration: none;"><span style="color: #fff;">Raffi Solutions</span></a>
+                    Copyright © 2021 - All right reserved by <svg xmlns="http://www.w3.org/2000/svg" height="1.50em" viewBox="0 0 512 512"><style>svg{fill:#eb0f0f}</style><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+                        <a href="https://instagram.com/raffidev" target="_blank" style="text-decoration: none;"><span style="color: #fff;">Rafi Athallah</span></a>
                     </p>
         </div>
     <!-- ======================= End Footer ======================= -->
@@ -492,18 +488,7 @@
                 loop: true
             })
         </script>
-        <!-- crisp chat js file -->
         <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="df4193ed-7abc-4cda-901f-5cb9872e88f7";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
-
-        <!-- Google -->
-        <!-- <script type="text/javascript">
-            function googleTranslateElementInit() {
-              new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-            }
-            </script>
-          
-          <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
-
 </body>
 
 </html>
