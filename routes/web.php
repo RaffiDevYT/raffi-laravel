@@ -23,9 +23,6 @@ use App\Models\User;
 Route::get('/', function () {
     return view('index');
 })->name('home');
-Route::get('/profile', function () {
-    return view('profile.profile');
-});
 Route::get('/blog', function () {
     return view('blog');
 });

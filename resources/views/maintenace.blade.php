@@ -214,7 +214,7 @@
     <meta property="og:site_name" content="RafiAthallah">
 
     <link rel="shortcut icon" href="{{ asset('img/data/rafi.jpg') }}">
-    <link href="{{ asset('css/blogsoon.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/maintenace.css') }}" rel="stylesheet">
 
     <title></Building></title>
 </head>
@@ -222,7 +222,7 @@
     <div id="particles-js"></div>
     <main>
         <h1>ON WORKING</h1>
-        <p>We are building a website blog please wait</p>
+        <p>We are building a website please wait</p>
         <hr>
         <div>
             <a href="https://discord.gg/VKfC3TAQv3">
