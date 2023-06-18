@@ -16,7 +16,11 @@
     <meta property="og:description" content="Hello, my name is Rafi Athallah I created this website for my personal data and photos">
     <title>Rafi Athallah</title>
 
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Grotesk" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono" />
+    <link href="https://fonts.cdnfonts.com/css/tt-travels-next-trl" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <!--  Bootstrap css file  -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
@@ -62,7 +66,7 @@
             <li><a href="#home">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#experience">EXPERIENCE</a></li>
-            <li><a href="#brand">SKILLS</a></li>
+            <li><a href="#skills">SKILLS</a></li>
             <li><a href="blog/">BLOG</a></li>
             <div class="bx bx-moon toogle-btn" id="darkmode"></div>
         </ul>
@@ -127,6 +131,60 @@
             </div>
         </div>
     </section>
+    <div class="skills" id="skills">
+                        <h3><span>My</span> <span class="highlight">Skills</span></h3>
+                        <hr>
+                    <div class="skill-container">
+                        <div class="card-skill">
+                            <img src="../../img/svg/html.svg" alt="HTML" loading="lazy" />
+                        </div>
+                        <div class="card-skill">
+                            <img src="../../img/svg/css.svg" alt="CSS" loading="lazy" />
+                        </div>
+                        <div class="card-skill">
+                            <img src="../../img/svg/JavaScript.svg" alt="JavaSctipt" loading="lazy" />
+                        </div>
+                        <div class="card-skill">
+                            <img src="../../img/svg/Bootstrap5.svg" alt="Bootstrap" loading="lazy" />
+                        </div>
+                        <div class="card-skill">
+                            <img src="../../img/svg/mysql.svg" alt="MySQL" loading="lazy" />
+                        </div>
+                        <div class="card-skill">
+                            <img src="../../img/svg/SQLite.svg" alt="SQLite" loading="lazy" />
+                        </div>
+                        <div class="card-skill">
+                            <img src="../../img/svg/ai.svg" alt="Illustrator" loading="lazy" />
+                        </div>
+                        <div class="card-skill">
+                            <img src="../../img/svg/ps.svg" alt="Photoshop" loading="lazy" />
+                        </div>
+                    </div>
+                    <h4 id="learning">Currently Learning:</h4>
+                    <div class="skill-container">
+                        <div class="card-skill">
+                            <img src="../../img/svg/Python.svg" alt="Python" loading="lazy" />
+                        </div>
+                        <div class="card-skill">
+                            <img src="../../img/svg/tailwind.svg" alt="TailwindCSS" loading="lazy" />
+                        </div>
+                        <div class="card-skill">
+                            <img src="../../img/svg/react.svg" alt="React" loading="lazy" />
+                        </div>
+                        <div class="card-skill">
+                            <img src="../../img/svg/vue.svg" alt="Vue" loading="lazy" />
+                        </div>
+                        <div class="card-skill">
+                            <img src="../../img/svg/nodejs.svg" alt="Node JS" loading="lazy" />
+                        </div>
+                        <div class="card-skill">
+                            <img src="../../img/svg/mongodb.svg" alt="Mongo DB" loading="lazy" />
+                        </div>
+                        <div class="card-skill">
+                            <img src="../../img/svg/laravel.svg" alt="Laravel" loading="lazy" />
+                        </div>
+                    </div>
+                </div>
 
     <!--  ========================= End About Area ==========================  -->
 
@@ -170,93 +228,6 @@
     </section>
 
     <!--  ========================= End Education & Experience Area ==========================  -->
-
-    <!--  ======================== Brand Area ==============================  -->
-    <section id="brand">
-        <section class="brand-area">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 text-center services-title">
-                        <h1 class="text-uppercase title-text">My Skills</h1>
-                        <!-- <p class="para white-title">
-                            Excellence is not a skill, it's an attitude. · The purpose of education is to make good human beings with skill and expertise.
-                        </p> -->
-                    </div>
-                    <div class="col-xl-6 col-lg-12 col-md-12">
-                        <div class="first-row row">
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="single-brand">
-                                    <img src="../../img/brands/html.png" alt="HTML">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="single-brand">
-                                    <img src="../../img/brands/css.png" alt="CSS">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="single-brand">
-                                    <img src="../../img/brands/js.png" alt="JS">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="single-brand">
-                                    <img src="../../img/brands/php.png" alt="PHP">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="single-brand">
-                                    <img src="../../img/brands/laravel.png" alt="LARAVEL">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="single-brand">
-                                    <img src="../../img/brands/mysql.png" alt="MYSQL">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <!-- <div class="single-brand">
-                                    <img src="../../img/brands/logo7.png" alt="Brand-7 ">
-                                </div> -->
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <!-- <div class="single-brand">
-                                    <img src="../../img/brands/logo8.png" alt="Brand-8 ">
-                                </div> -->
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <!-- <div class="single-brand">
-                                    <img src="../../img/brands/logo9.png" alt="Brand-9">
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-12 col-md-12">
-                        <div class="experience-area">
-                            <div class="d-flex flex-row years-area">
-                                <h2 class="p-3 years title-text">1</h2>
-                                <h2 class="title-text">
-                                    <span>Year</span>
-                                    <span>Experience</span>
-                                    <span>Working</span>
-                                </h2>
-                            </div>
-                            <div class="d-flex flex-row flex-wrap call-area">
-                                <span><i class="fas fa-phone-alt fa-3x px-3"></i></span>
-                                <div class="call-now">
-                                    <a href="https://instagram.com/raffidev"
-                                        class="text-uppercase h4 font-roboto">Call Now</a>
-                                    <span class="font-roboto py-2">raffi@raffidev.com</span>
-                                </div>
-                            </div>
-                            <div class="bg-panel"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    <!--  ======================== End Brand Area ==============================  -->
 
     <!--  ======================= Project Area =============================  -->
     <section id="project">
